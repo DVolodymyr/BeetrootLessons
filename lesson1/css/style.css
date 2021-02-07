@@ -1,0 +1,21 @@
+body{
+    background-color: #c0c0c0;
+}
+.socTel {
+    display: flex;
+    justify-content: center;
+}
+.tel {
+    margin: 5px 25px;
+}
+a:link {
+    color: #0000d0; 
+}
+
+a:visited {
+    color: #793636;
+}
+
+a:hover {
+    color: #ffe; 
+} 

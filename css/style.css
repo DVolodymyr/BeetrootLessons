@@ -1,0 +1,33 @@
+body{
+    background-color: #e0f8eb;
+}
+
+.theMainThing {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin:  0px 480px;
+}
+
+nav{
+    display: flex;
+    justify-content: center
+}
+
+a:link {
+    color: #0000d0; 
+}
+a:visited {
+    color: #793636;
+}
+
+a:hover {
+    color: #ffe; 
+} 

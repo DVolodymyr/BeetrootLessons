@@ -1,0 +1,23 @@
+body {
+    background-color: #c0c0c0;    
+}
+section {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link {
+    color: #0000d0; 
+}
+
+a:visited {
+    color: #793636;
+}
+
+a:hover {
+    color: #ffe; 
+} 
