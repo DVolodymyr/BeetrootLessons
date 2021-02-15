@@ -1,0 +1,150 @@
+@font-face {
+	font-family: Weather;
+	src: url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/font/weathericons-regular-webfont.ttf');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.wrapper {
+	background-color: #3399cc;
+	border: 8px solid #2b81ac;
+	min-height: 100%;
+	position: relative;
+
+}
+
+.container {
+	position: absolute;
+	width: 80%;
+	top: 50%;
+	left: 50%;
+	
+	transform: translate(-50%, -50%);
+}
+
+.header {
+	color: #fff;
+	margin: 0 auto;
+	width: 50%;
+}
+h1>i {
+	vertical-align: middle;
+}
+
+.content {
+	border: 5px solid #fff;
+	font-size: 0;
+	margin: 0 auto;
+	max-width: 686px;
+}
+
+
+.content>div {
+	display: inline-block;
+	border: 5px solid white;
+	box-sizing: content-box;
+	color: #fff;
+	font-size: 1rem;
+	padding-top: 20px;
+	text-align: center;
+	margin-left: -5px;
+	margin-top: -5px;
+}
+
+
+.content:hover>div {
+	opacity: .33; 
+}
+
+.content>div:hover {
+	opacity: 1; 
+	transition: opacity .5; 
+	border-left: 5px solid #fff;
+}
+
+.content div>p {
+	margin-top: 10px; 
+}
+
+p {
+	font-size: 20px;
+	margin: 20px auto;
+
+}
+
+i {
+	font-size: 30px;
+	vertical-align: bottom;
+}
+
+
+.lisbon{
+	background-color: #3399cc;
+	width: calc(50% - 5px);
+}
+.paris {
+	background-color: #3cc;
+	width: calc(25% - 5px);
+}
+.belgrad {
+	background-color: #969;
+	width: 25%;
+	margin-right: -5px;
+}
+.moscow {
+	background-color: #c24747;
+	width: calc(25% - 5px);
+}
+.telaviv {
+	background-color: #e2674a;
+	width: calc(25% - 5px);
+}
+.cair {
+	background-color: #fc6;
+	width: calc(25% - 5px);
+}
+.newyork {
+	background-color: #9c9;
+	width: 25%;
+	margin-right: -5px;
+}
+.newdelhi {
+	background-color: #699;
+	width: calc(25% - 5px);
+}
+.sanfranc {
+	background-color: #c69;
+	width: calc(50% - 5px);
+}
+.tokyo {
+	background-color: #396;
+	width: 25%;
+	margin-right: -5px;
+}
+.sydney {
+	background-color: #669;
+	width: 100%;
+	margin-bottom: -5px;
+}
+.footer {
+	margin: 15px auto;
+	width: 50%;
+}
+.footer-text {
+	color: #fff;
+	margin: 0;
+	font-size: 15px;
+}

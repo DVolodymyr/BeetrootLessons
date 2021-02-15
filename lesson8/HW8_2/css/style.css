@@ -1,0 +1,99 @@
+@font-face { font-family: HansKendrick-Regular; src: url('HansKendrick-Regular.otf'); } 
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .2s ease-in;
+}
+
+body {
+    font-family: 'HansKendrick-Regular', sans-serif;
+    color: #e2e7ec;
+    min-height: 100%;
+	position: relative;
+}
+
+.All {
+  
+    position: absolute;
+	
+}
+
+
+.Top {
+    display: flex;
+    justify-content: last baseline;
+    padding: 20px;
+
+}
+
+.topOne {
+    background-image: url(../images/Layer\ 8@1X.png);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-size: 740px 540px;
+    width: 740px;
+    height: 540px;
+}
+
+#TOsecond {
+    font-size: 25px;
+    width: 433px;
+    height: 60px;
+}
+
+.topTwo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 15px;
+    width: 360px;
+    height: 540px;
+    color: #000000;
+}
+
+.Below{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+      
+}
+
+.belowOne{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 540px;
+    color: #000000;
+}
+
+.belowTwo{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 540px;
+    color: #000000;
+}
+
+.belowThree{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 540px;
+    color: #000000;
+}
+
+.footer{
+    text-align: center;
+    margin: 87px;
+}
